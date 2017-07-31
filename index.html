@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+
+<head>
+	
+<script type="text/javascript" src="myScript.js"></script>
+<link rel="stylesheet" type="text/css" href="main.css">
+<link href="https://fonts.googleapis.com/css?family=Artifika" rel="stylesheet">
+
+</head>
+
+
+<body>
+	
+
+	<h1 class="heading">temperature</h1>
+
+	<p class="subheading">Welcome. <br> Enter a number in either boxes to calculate
+		the equivalent temparature in &#8451; or &#8457;. <br> Use the clear button to 
+		clear the fields and start again. </p>
+
+	<div class="data">
+		<label>Degrees Celsius (&#8451;)</label>
+		<input id="c" onkeyup="convert('C')" type="text" name="Celsius" maxlength="15">
+	</div>
+	
+	<div class="data">
+		<label>Fahrenheit (&#8457;)</label>
+		<input id="f" onkeyup="convert('F')" type="text" name="Fahrenheit" maxlength="15">
+	</div>
+
+	<div class="btn">
+		<button class="clrBtn" onclick="sweep()">Clear</button>
+	</div>
+
+
+</body>
+
+</HTML>
